@@ -32,4 +32,14 @@ void main() {
   ahmetMoney = ahmetMoney / 2;
   print('paranız: $ahmetMoney');
   print('$musterininAdi paranız uçtu $userMoney');
+  print('-------------');
+
+  // yeni bir user adı oluştur
+  // yeni bir para ver
+  // bu parayı 20 ye bol ve ekranda goster
+
+  String personName = "Açelya";
+  double personMoney = 215;
+  personMoney /= 20;
+  print('Merhaba $personName bakiyeniz: $personMoney');
 }
